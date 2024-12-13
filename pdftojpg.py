@@ -48,11 +48,6 @@ root.title("PDF to JPG Dönüştürücü")
 root.geometry("500x400")
 root.configure(bg="#f5f5f5")  # Arka plan rengi
 
-# Logo ekle
-logo = PhotoImage(file="logo.png")  # Logo dosyanızın yolu
-logo_label = Label(root, image=logo, bg="#f5f5f5")
-logo_label.pack(pady=10)
-
 # Başlık
 title = Label(
     root, 
